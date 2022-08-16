@@ -1,0 +1,10 @@
+typedef struct no *Pilha;
+Pilha cria_pilha();
+int pilha_vazia(Pilha p);
+int empilha(Pilha *p, int elem);
+int desempilha(Pilha *p, int *elem);
+int le_topo(Pilha *p, int *elem);
+void imprime(Pilha p);
+int palindromo(char * vet);
+int elimina(Pilha *p, int elem);
+void Pares_e_impares(Pilha p);
